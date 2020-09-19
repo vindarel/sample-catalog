@@ -136,6 +136,8 @@ def extension_of_language(language):
         return ".py"
     elif language == "Clojure":
         return ".clj"
+    elif language in ["Lisp", "Common Lisp"]:
+        return ".lisp"
     else:
         return ".generic"
 
